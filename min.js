@@ -1,2 +1,5 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const isEmptyArray = arr => !arr.length;
+console.log("0 || 1 = "+(0 || 1));
+console.log("0 && 1 = "+(0 && 1));
+console.log(1 +  +"2" + "2");
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
