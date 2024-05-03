@@ -1,1 +1,1 @@
-var pattern = {};
+const updated = numbers.filter(element => element > 6);
