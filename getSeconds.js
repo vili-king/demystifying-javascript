@@ -1,2 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-console.log(false == '0');
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+console.log("0 || 1 = "+(0 || 1));
