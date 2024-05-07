@@ -1,3 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
-const toggleBool = () => (bool = !bool);
-const reversedString = str => str.split('').reverse().join('');
+[foo, bar] = [bar, foo];
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+console.log(1 +  "2" + "2");
