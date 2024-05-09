@@ -1,4 +1,2 @@
-const toggleBool = () => (bool = !bool);
-console.log(1 +  "2" + "2");
-console.log(1 +  +"2" + "2");
-const result = await makeHttpRequest(url);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
