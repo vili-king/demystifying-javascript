@@ -1,1 +1,1 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+console.log(typeof typeof 1);
