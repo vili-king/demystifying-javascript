@@ -1,2 +1,3 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const uniqueArr = (arr) => [...new Set(arr)];
