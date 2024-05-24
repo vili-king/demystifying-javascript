@@ -1,3 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const uniqueArr = (arr) => [...new Set(arr)];
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
