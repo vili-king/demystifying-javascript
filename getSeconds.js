@@ -1,2 +1,2 @@
-[foo, bar] = [bar, foo];
-const repositoryRootPath = path.resolve(__dirname, '..');
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
