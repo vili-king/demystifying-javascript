@@ -1,2 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
