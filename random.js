@@ -1,2 +1,3 @@
+console.log("0 && 1 = "+(0 && 1));
+[foo, bar] = [bar, foo];
 var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
