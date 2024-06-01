@@ -1,3 +1,2 @@
-console.log("0 && 1 = "+(0 && 1));
-[foo, bar] = [bar, foo];
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const channel = getChannel(computedAppVersion);
