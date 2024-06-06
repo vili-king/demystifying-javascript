@@ -1,3 +1,3 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const merge = (a, b) => [...a, ...b];
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+var pattern = {};
+const value = ( 5 < 7 ) ? "True" : "False" ;
