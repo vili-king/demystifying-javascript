@@ -1,3 +1,3 @@
-console.log(false == '0');
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const goToTop = () => window.scrollTo(0, 0);
+const merge = [...new Set(a.concat(b))];
+const results = await Promise.all(resultingPromises);
