@@ -1,2 +1,2 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+var c = new Counter(); c.add(); c.add(); c.add();
