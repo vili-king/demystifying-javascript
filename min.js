@@ -1,3 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
-const merge = [...new Set(a.concat(b))];
-const results = await Promise.all(resultingPromises);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const randomBoolean = () => Math.random() >= 0.5;
+const isWeekday = (date) => date.getDay() % 6 !== 0;
