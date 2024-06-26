@@ -1,3 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const randomBoolean = () => Math.random() >= 0.5;
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+[foo, bar] = [bar, foo];
