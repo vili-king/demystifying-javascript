@@ -1,2 +1,2 @@
-var pattern = {};
-console.log(1 +  "2" + "2");
+const removeDuplicates = (arr) => [...new Set(arr)];
+var arr3 = "jones".split('');
