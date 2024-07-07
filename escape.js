@@ -1,3 +1,3 @@
-console.log(typeof typeof 1);
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const goToTop = () => window.scrollTo(0, 0);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
