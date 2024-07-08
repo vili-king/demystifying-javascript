@@ -1,2 +1,3 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-[foo, bar] = [bar, foo];
+const reversedString = str => str.split('').reverse().join('');
+var arr1 = "john".split('');
+console.log(false === '0');
