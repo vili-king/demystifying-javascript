@@ -1,2 +1,2 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-var arr3 = "jones".split('');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
