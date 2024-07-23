@@ -1,3 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const getRandomBoolean = () => Math.random() >= 0.5;
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+console.log(false === '0');
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
